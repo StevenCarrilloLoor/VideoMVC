@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Sistema de Cálculo de Comisiones</h1>
+    <p class="lead">Bienvenido al sistema de gestión de comisiones por ventas</p>
+    
+    <div class="row mt-5">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Funcionalidad Principal</h5>
+                    <p class="card-text">
+                        Este sistema permite filtrar las ventas por un rango de fechas y calcular automáticamente 
+                        las comisiones de cada vendedor basándose en sus reglas de comisión asignadas.
+                    </p>
+                    <a asp-controller="Home" asp-action="Comisiones" class="btn btn-primary">
+                        Calcular Comisiones
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="card-title">Vendedores</h6>
+                    <p class="card-text">Gestión de vendedores con reglas de comisión asignadas</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="card-title">Ventas</h6>
+                    <p class="card-text">Registro de ventas con fecha y monto</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="card-title">Reglas</h6>
+                    <p class="card-text">Configuración de porcentajes de comisión</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
