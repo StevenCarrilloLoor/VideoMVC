@@ -60,7 +60,7 @@ dotnet run
 Steven Carrillo - 2025
 
 ## links de contenido
-Link GitHub: https://github.com/StevenCarrilloLoor/VideoMVC.git
-Link Video: 
-Link Deploy:
+- Link GitHub: https://github.com/StevenCarrilloLoor/VideoMVC.git
+- Link Video: https://drive.google.com/file/d/1QzrK8veoYjx5xCW5LI88FXY0Vi0Ydp7H/view?usp=sharing
+- Link Deploy: https://videomvc.onrender.com
 
